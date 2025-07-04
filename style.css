@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.ok {
+  color: green;
+}
+.error {
+  color: red;
+}
