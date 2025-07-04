@@ -1,0 +1,9 @@
+{
+  "name": "Escáner de Abordaje",
+  "short_name": "Abordaje",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3367D6",
+  "icons": []
+}
