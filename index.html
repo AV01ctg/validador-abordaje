@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Escáner de Abordaje</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Escáner de Abordaje</h1>
+  <form id="vuelo-form">
+    <label>Número de vuelo: <input type="text" id="vuelo" required /></label><br/>
+    <label>Ruta (ej: CTG-SJO): <input type="text" id="ruta" required /></label><br/>
+    <label>Fecha (YYYY-MM-DD): <input type="date" id="fecha" required /></label><br/>
+    <button type="submit">Guardar datos del vuelo</button>
+  </form>
+
+     <h2>Escaneo</h2>
+    <button onclick="simularEscaneo()">Simular escaneo</button>
+    <div id="resultado"></div>
+  </div>
+
+  <div id="historial">
+    <h2>Historial</h2>
+    <ul id="lista-historial"></ul>
+    <button onclick="exportarHistorial()">Exportar CSV</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
